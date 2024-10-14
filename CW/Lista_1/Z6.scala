@@ -1,5 +1,5 @@
 def listLength[A](list : List[A]): Int = {
-    list match{
+    list match {
         case Nil => 0
         case head :: next => 1 + listLength(next)
     }
