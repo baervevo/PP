@@ -18,16 +18,16 @@ let militaryMinutes (hours: int) (minutes: int) (timeOfDay: string) =
   in
 
   if minutes > 59 || minutes < 0 then
-    raise (IllegalArgument "Minutes must belong to interval [0;59]")
+    failwith "Minutes must belong to interval [0;59]"
   else if hours > 12 || hours < 0 then
-    raise (IllegalArgument "Hours must belong to interval [0;12]")
+    failwith "Hours must belong to interval [0;12]"
   else
     if timeOfDay = "PM" then
       pmFunc hours minutes
     else if timeOfDay = "AM" then
       amFunc hours minutes
     else
-      raise (IllegalArgument "Time of day must be AM or PM")
+      failwith "Time of day must be AM or PM"
 
 let timeA = militaryMinutes 5 12 "PM";;
 let timeB = militaryMinutes 12 59 "AM";;

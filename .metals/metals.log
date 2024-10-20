@@ -6517,3 +6517,9 @@ WARNING: Unmatched cancel notification for request id 11384
 2024.10.20 16:50:06 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z4.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
 2024.10.20 16:50:32 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z4.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
 2024.10.20 17:16:18 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z4.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.10.20 17:19:41 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z1.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.10.20 17:19:42 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z1.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.10.20 17:19:44 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z2.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.10.20 17:19:45 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z2.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.10.20 17:19:45 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z4.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.10.20 17:19:46 INFO  no build target found for /home/mariuszr/Documents/PP/LAB/Lab_1/Z4.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
