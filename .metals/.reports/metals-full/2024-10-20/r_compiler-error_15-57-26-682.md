@@ -1,8 +1,8 @@
-file://<WORKSPACE>/CW/Lista_1/Z4.scala
+file://<WORKSPACE>/LAB/Lab_1/Z2.scala
 ### dotty.tools.dotc.core.TypeError$$anon$1: Toplevel definition main is defined in
-  <WORKSPACE>/CW/Lista_1/Z2.scala
+  <WORKSPACE>/LAB/Lab_1/Z4.scala
 and also in
-  <WORKSPACE>/CW/Lista_1/Z3.scala
+  <WORKSPACE>/LAB/Lab_1/Z3.scala
 One of these files should be removed from the classpath.
 
 occurred in the presentation compiler.
@@ -17,10 +17,10 @@ Options:
 
 action parameters:
 offset: 5
-uri: file://<WORKSPACE>/CW/Lista_1/Z4.scala
+uri: file://<WORKSPACE>/LAB/Lab_1/Z2.scala
 text:
 ```scala
-def s@@
+def h@@
 ```
 
 
@@ -33,7 +33,7 @@ def s@@
 #### Short summary: 
 
 dotty.tools.dotc.core.TypeError$$anon$1: Toplevel definition main is defined in
-  <WORKSPACE>/CW/Lista_1/Z2.scala
+  <WORKSPACE>/LAB/Lab_1/Z4.scala
 and also in
-  <WORKSPACE>/CW/Lista_1/Z3.scala
+  <WORKSPACE>/LAB/Lab_1/Z3.scala
 One of these files should be removed from the classpath.

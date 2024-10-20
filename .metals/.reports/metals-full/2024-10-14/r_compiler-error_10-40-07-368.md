@@ -1,8 +1,8 @@
-file://<WORKSPACE>/CW/Lista_1/Z5.scala
+file://<WORKSPACE>/LAB/Lab_1/test.scala
 ### dotty.tools.dotc.core.TypeError$$anon$1: Toplevel definition main is defined in
-  <WORKSPACE>/CW/Lista_1/Z1.scala
+  <WORKSPACE>/CW/Lista_1/Z5.scala
 and also in
-  <WORKSPACE>/CW/Lista_1/Z2.scala
+  <WORKSPACE>/CW/Lista_1/Z1.scala
 One of these files should be removed from the classpath.
 
 occurred in the presentation compiler.
@@ -16,13 +16,11 @@ Options:
 
 
 action parameters:
-offset: 47
-uri: file://<WORKSPACE>/CW/Lista_1/Z5.scala
+offset: 5
+uri: file://<WORKSPACE>/LAB/Lab_1/test.scala
 text:
 ```scala
-def palindrome[A](xs: List[A]): Boolean = {
-
-}d@@
+def g@@
 ```
 
 
@@ -35,7 +33,7 @@ def palindrome[A](xs: List[A]): Boolean = {
 #### Short summary: 
 
 dotty.tools.dotc.core.TypeError$$anon$1: Toplevel definition main is defined in
-  <WORKSPACE>/CW/Lista_1/Z1.scala
+  <WORKSPACE>/CW/Lista_1/Z5.scala
 and also in
-  <WORKSPACE>/CW/Lista_1/Z2.scala
+  <WORKSPACE>/CW/Lista_1/Z1.scala
 One of these files should be removed from the classpath.
