@@ -1,8 +1,10 @@
 def replicate[A](x: A, n: Int): List[A] = {
-    n match {
-        case 0 => List()
-        case positive if positive > 0 => List(x) ++ replicate(x, positive-1)
-        case other => null
+    if(n == 0) {
+        List()
+    } else if (n > 0) {
+        x :: replicate(x, n - 1)
+    } else {
+        null;
     }
 }
 

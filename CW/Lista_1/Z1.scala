@@ -1,7 +1,8 @@
 def flatten1[A](xss: List[List[A]]): List[A] = {
-    xss match {
-        case Nil => Nil
-        case head :: next => head ++ flatten1(next)
+    if(xss.isEmpty){
+        List()
+    } else {
+        xss.head ::: flatten1(xss.tail)
     }    
 }
 

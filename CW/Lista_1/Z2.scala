@@ -1,7 +1,8 @@
 def count[A](x: A, xs: List[A]): Int = {
-    xs match {
-        case Nil => 0
-        case head :: tail => (if(head == x) 1 else 0) + count(x, tail)
+    if(xs.isEmpty){
+        0
+    } else {
+        (if(xs.head == x) 1 else 0) + count(x, xs.tail)
     }
 }
 

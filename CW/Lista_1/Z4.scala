@@ -1,7 +1,8 @@
 def sqrList(xs: List[Int]): List[Int] = {
-    xs match {
-        case Nil => Nil
-        case head :: next => List(head*head) ++ sqrList(next)
+    if(xs.isEmpty) {
+        List()
+    } else {
+        xs.head*xs.head :: sqrList(xs.tail)
     }
 }
 

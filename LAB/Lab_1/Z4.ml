@@ -33,6 +33,6 @@ let timeA = militaryMinutes 5 12 "PM";;
 let timeB = militaryMinutes 12 59 "AM";;
 let timeC = militaryMinutes 12 42 "PM";;
 
-Printf.printf "%s, %s, %s" timeA timeB timeC
+Printf.printf "%s, %s, %s" timeA timeB timeC;;
 
 let timeD = militaryMinutes 12 60 "AM";;
