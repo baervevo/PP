@@ -1,13 +1,11 @@
 def hits[A](listA: List[A], listB: List[A]): Int = {
-    if(listA.isEmpty || listB.isEmpty) {
+    if(listA == List() || listB == List()) then
         0
-    } else {
-        if (listA.head == listB.head) {
+    else
+        if (listA.head == listB.head) then
             1 + hits(listA.tail, listB.tail);
-        } else {
+        else
             hits(listA.tail, listB.tail);
-        }
-    }
 }
 
 @main def main() = {

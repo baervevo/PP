@@ -11,19 +11,17 @@ def militaryMinutes(hours: Int, minutes: Int, timeOfDay: String): String  = {
         else buildString(h + 12, m);
     }
 
-    if (minutes > 59 || minutes < 0) {
+    if (minutes > 59 || minutes < 0) then
         throw new IllegalArgumentException("Minutes should be between 0 and 59.");
-    } else if (hours > 12 || hours < 0) {
+    else if (hours > 12 || hours < 0) then
         throw new IllegalArgumentException("Hours should be between 0 and 12");
-    }
 
-    if (timeOfDay == "PM") {
+    if (timeOfDay == "PM") then
         pmFunc(hours, minutes);
-    } else if (timeOfDay == "AM") {
+    else if (timeOfDay == "AM") then
         amFunc(hours, minutes)
-    } else {
+    else
         throw new IllegalArgumentException("Time of day should be AM or PM.");
-    }
 }
 
 @main def main() = {
