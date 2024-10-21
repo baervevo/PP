@@ -1,4 +1,4 @@
-let rec insert (list: 'a list) value (index: int) = 
+let rec insert list value index = 
   if index <= 0 then
     value :: list
   else

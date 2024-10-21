@@ -1,4 +1,4 @@
-let rec hits (listA: 'a list) (listB: 'a list) =
+let rec hits listA listB =
   if listA = [] || listB = [] then
     0
   else

@@ -15,3 +15,7 @@ let rec split2 list a b =
         (x, head :: y)
       else
         (x, y)
+      ;;
+
+split2 [5.0; 4.0; 3.0; 2.0; 3.0; 5.0] 3.0 4.0;;
+split2 [] 3 4;;

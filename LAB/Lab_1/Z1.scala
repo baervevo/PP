@@ -1,4 +1,4 @@
-def fiddle4(tuple: (Double, Double, Double, Double)): (Double, Double, Double) = {
+    def fiddle4(tuple: (Double, Double, Double, Double)): (Double, Double, Double) = {
     (tuple._4, tuple._1, tuple._3 - tuple._2);
 }
 
