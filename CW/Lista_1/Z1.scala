@@ -1,9 +1,8 @@
 def flatten1[A](xss: List[List[A]]): List[A] = {
-    if(xss.isEmpty){
+    if(xss.isEmpty) then
         List()
-    } else {
+    else
         xss.head ::: flatten1(xss.tail)
-    }    
 }
 
 @main def main() = {
