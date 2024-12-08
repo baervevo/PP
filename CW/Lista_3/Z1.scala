@@ -12,4 +12,3 @@ def uncurry3[A, B, C, D](f: A => B => C => D): (A, B, C) => D =
 
     println(multiplyCurried(1)(2)(3))
     println(multiplyUncurried(1,2,3))
-

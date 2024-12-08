@@ -1,4 +1,4 @@
 let f x = 
-  let rec loop x = loop x in
-  loop x
-;;
+  let rec loop = loop in
+  loop 
+;;  
