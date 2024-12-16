@@ -16,7 +16,7 @@ let counts disk =
     | [] ->
       if back = [] then record
       else counts_helper (List.rev back) [] record
-    | File { name } :: tl ->
+    | File _ :: tl ->
         counts_helper tl back {folders = record.folders ; files = record.files + 1}
     | Folder { name ; contents } :: tl ->
         counts_helper tl (List.rev_append contents back) {folders = record.folders + 1 ; files = record.files}
