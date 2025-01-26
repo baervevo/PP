@@ -10,7 +10,7 @@ let rec (@$) l1 l2 =
   match l1 with
   | Nil -> l2
   | Cons {hd = h; tl = t} ->
-      Cons{hd = h; tl = fun () -> t() @$ l2};;
+      Cons{hd = h; tl = fun () -> t () @$ l2};;
 
 let order value l m r =
   (m, l, r);; (* Czysto przykładowa implementacja, tutaj może znaleźć się cokolwiek, o ile zwraca krotkę wartości wejściowych *)
